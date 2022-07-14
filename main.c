@@ -130,7 +130,11 @@ int main()
 	);
 
 
+	printf("RUN:\n");
 	run_node(ast);
+	
+	printf("\nCOMPILE:\n");
+	compile_node(ast);
 	return 0;
 }
 
